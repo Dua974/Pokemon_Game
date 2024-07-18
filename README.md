@@ -68,8 +68,29 @@
 <!-- GETTING STARTED -->
 <h2 id="getting-started"> :book: Getting Started</h2>
 
+<p>Use the following command to clone the repository to your local machine:</p>
+<pre><code>git clone git@github.com:YourGitHubUsername/Pokemon_Game.git</code></pre>
+<p>Replace YourGitHubUsername with your actual GitHub username.</p>
 
 
+<p>Change into the project directory:</p>
+<pre><code>cd Pokemon_Game</code></pre>
 
+<p>Compile the Program:  Ensure you have g++ installed on your system. If not, install it using your package manager. Use the provided makefile to compile the project</p>
+<pre><code>make</code></pre>
+<p>This command compiles the necessary files <strong>(Pokemon.o, Game.o, and proj2.cpp)</strong> into an executable named proj2</p>
+
+
+<p>Run the Program: Replace <strong>proj2_pokeDex.txt</strong> with the path to your own Pokémon data file if it's located elsewhere.</p>
+<pre><code>./proj2 proj2_pokeDex.txt</code></pre>
+
+
+<!-- CREDITS -->
+<h2 id="credits"> :scroll: Credits</h2>
+
+Dua Abdullah 
+
+
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dua974)
 
 
